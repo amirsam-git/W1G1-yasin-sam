@@ -1,3 +1,7 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
 
 a {
   color: black;
@@ -34,4 +38,35 @@ a {
   margin: 10px 20px;
   font-weight: bold;
   font-size: 1.1rem;
+}
+
+
+.slideshow-area>div>img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  object-position: top;
+}
+
+
+
+.influencer-area>div>img {
+  width: 90px;
+  height: 90px;
+  border-radius: 1000px;
+  border: 4px solid rgb(201, 7, 201);
+  margin: 10px;
+  padding: 4px;
+}
+
+.d-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+
+.influencer-area {
+  overflow-y: visible;
+  overflow-x: scroll;
 }

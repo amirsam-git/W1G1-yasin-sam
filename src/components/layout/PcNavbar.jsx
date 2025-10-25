@@ -3,9 +3,6 @@ function PcNavbar() {
     <>
       <div className="top-navbar-area">
         <div>
-          <a href="#">Home</a>
-        </div>
-        <div>
           <a href="#">Store</a>
         </div>
         <div>

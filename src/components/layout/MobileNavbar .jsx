@@ -3,9 +3,6 @@ function MobileNavbar () {
     <>
       <div className="mobile-navbar-area">
         <div>
-          <a href="#">Home</a>
-        </div>
-        <div>
           <a href="#">Store</a>
         </div>
         <div>
