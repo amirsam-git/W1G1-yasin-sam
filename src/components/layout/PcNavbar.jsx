@@ -1,7 +1,7 @@
 function PcNavbar() {
   return (
     <>
-      <div className="top-navbar-area">
+      <div className="top-navbar-area d-lg-blcok d-sm-none">
         <div>
           <a href="#">Store</a>
         </div>

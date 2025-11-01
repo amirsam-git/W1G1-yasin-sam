@@ -1,3 +1,57 @@
+
+
+/* mobile */
+@media only screen and (max-width:720px) {
+  .d-sm-block {
+    visibility: visible;
+  }
+  .d-sm-none {
+    visibility: hidden;
+  }
+  .col-sm-2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 10px;
+  }
+
+  .col-sm-1 {
+    display: grid;
+    grid-template-columns: auto;
+    column-gap: 10px;
+  }
+}
+
+
+
+
+
+/* pc */
+@media only screen and (min-width:721px) {
+    .d-lg-none {
+      visibility: hidden;
+    }
+    .d-lg-block {
+      visibility: visible;
+    }
+    .col-lg-4 {
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      column-gap: 10px;
+    }
+
+    .col-lg-2 {
+      display: grid;
+      grid-template-columns: auto auto;
+      column-gap: 10px;
+    }
+}
+
+.col-2 {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 10px;
+}
+
 body {
   margin: 0px;
   padding: 0px;
@@ -31,6 +85,7 @@ a {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  background-color: rgb(1, 1, 139);  
 }
 
 .mobile-navbar-area>div>a {  
@@ -38,6 +93,7 @@ a {
   margin: 10px 20px;
   font-weight: bold;
   font-size: 1.1rem;
+  color: white;
 }
 
 
@@ -69,4 +125,35 @@ a {
 .influencer-area {
   overflow-y: visible;
   overflow-x: scroll;
+}
+
+.ads-area>div>div>img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.ads-area>div {
+  margin: 5px;
+}
+
+
+
+.bg-red {
+  background-color: red;
+}
+
+.bg-blue {
+  background-color: blue;
+}
+
+.bg-green {
+  background-color: green;  
+}
+
+footer {
+  margin-bottom: 100px;
+}
+
+.p-5 {
+  padding: 10px;
 }

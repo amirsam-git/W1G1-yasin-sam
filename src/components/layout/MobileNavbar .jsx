@@ -1,7 +1,7 @@
 function MobileNavbar () {
   return (
     <>
-      <div className="mobile-navbar-area">
+      <div className="mobile-navbar-area d-sm-block d-lg-none">
         <div>
           <a href="#">Store</a>
         </div>
