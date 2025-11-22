@@ -23,6 +23,10 @@
     grid-template-columns: auto;
     column-gap: 10px;
   }
+
+  .m-sm-1 {
+    margin: 10px;
+  }
 }
 
 
@@ -48,6 +52,10 @@
       grid-template-columns: auto auto;
       column-gap: 10px;
     }
+
+    .m-lg-5 {
+      margin: 50px
+    }
 }
 
 .col-2 {
@@ -72,6 +80,7 @@ a {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .top-navbar-area>div>a {  
@@ -233,4 +242,9 @@ footer a {
 .card-page {
   width: 90%;
   margin: 100px auto;
+}
+
+
+.mobile-navbar-area i {
+  font-size: 1.8rem;
 }

@@ -11,20 +11,21 @@ export default function AboutUsPage() {
   }, []);
 
   return (
-    <>
-      <h2>All Posts</h2>
+    <div className="container posts-area">
+      <div className="m-lg-5 m-sm-1">
+        <h2>All Posts</h2>
+        <div>
+          {posts.length === 0 && <p>Loading...</p>}
 
-      <div>
-        {posts.length === 0 && <p>Loading...</p>}
-
-        {posts.map((post) => (
-          <div key={post.id} style={{ marginBottom: "20px" }}>
-            <h3>{post.title}</h3>
-            <p>{post.body}</p>
-            <hr />
-          </div>
-        ))}
+          {posts.map((post) => (
+            <div key={post.id} style={{ marginBottom: "20px" }}>
+              <h3>{post.title}</h3>
+              <p>{post.body}</p>
+              <hr />
+            </div>
+          ))}
+        </div>
       </div>
-    </>
+    </div>
   );
 }

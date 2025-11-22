@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function PcNavbar() {
   return (
     <>
-      <div className="top-navbar-area d-lg-blcok d-sm-none">
+      <div className="top-navbar-area d-lg-blcok d-sm-none w-99">
         <div>
           <Link to="/store">Store</Link>
         </div>
