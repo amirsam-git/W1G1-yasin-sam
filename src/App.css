@@ -1,4 +1,5 @@
 .container {
+  padding-top: 70px;
   width: 100%;
   max-width: 1200px;
   margin: auto;
@@ -97,7 +98,7 @@ a {
   bottom: 0;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   background-color: rgb(1, 1, 139);  
 }
@@ -132,7 +133,15 @@ a {
 .d-flex {
   display: flex;
   flex-direction: row;
+}
+
+
+.justify-content-start {
   justify-content: start;
+}
+
+.justify-content-between {
+  justify-content: space-between;
 }
 
 .item-center {
@@ -165,6 +174,10 @@ a {
 
 .bg-blue {
   background-color: blue;
+}
+
+.btn-warning {
+  background-color: yellow;
 }
 
 .bg-green {
@@ -210,6 +223,7 @@ footer a {
   border: 0px;
   border-radius: 5px;
   padding: 5px 15px;
+  height: 30px;
 }
 
 .btn-blue {
@@ -247,4 +261,23 @@ footer a {
 
 .mobile-navbar-area i {
   font-size: 1.8rem;
+}
+
+
+.topbar {
+  background-color: blue;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  padding: 5px;
+}
+
+.topbar a {
+  color: white;
+}
+
+
+.me-4 {
+  margin-right: 15px;
 }
