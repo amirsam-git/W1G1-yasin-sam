@@ -10,9 +10,11 @@
   .d-sm-block {
     visibility: visible;
   }
+
   .d-sm-none {
     visibility: hidden;
   }
+
   .col-sm-2 {
     display: grid;
     grid-template-columns: auto auto;
@@ -36,27 +38,29 @@
 
 /* pc */
 @media only screen and (min-width:721px) {
-    .d-lg-none {
-      visibility: hidden;
-    }
-    .d-lg-block {
-      visibility: visible;
-    }
-    .col-lg-4 {
-      display: grid;
-      grid-template-columns: auto auto auto auto;
-      column-gap: 10px;
-    }
+  .d-lg-none {
+    visibility: hidden;
+  }
 
-    .col-lg-2 {
-      display: grid;
-      grid-template-columns: auto auto;
-      column-gap: 10px;
-    }
+  .d-lg-block {
+    visibility: visible;
+  }
 
-    .m-lg-5 {
-      margin: 50px
-    }
+  .col-lg-4 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 10px;
+  }
+
+  .col-lg-2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 10px;
+  }
+
+  .m-lg-5 {
+    margin: 50px
+  }
 }
 
 .col-2 {
@@ -69,7 +73,13 @@ body {
   font-family: Tahoma, Helvetica, Arial, sans-serif;
   margin: 0px;
   padding: 0px;
+  background-color: #3c40c6;
+  background-image: url('/assets/img/stars-opacity.0979c1.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
+
 
 a {
   color: black;
@@ -84,7 +94,7 @@ a {
   flex-wrap: wrap;
 }
 
-.top-navbar-area>div>a {  
+.top-navbar-area>div>a {
   display: inline-block;
   margin: 10px 20px;
   font-weight: bold;
@@ -100,10 +110,10 @@ a {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  background-color: rgb(1, 1, 139);  
+  background-color: rgb(1, 1, 139);
 }
 
-.mobile-navbar-area>div>a {  
+.mobile-navbar-area>div>a {
   display: inline-block;
   margin: 10px 20px;
   font-weight: bold;
@@ -177,11 +187,11 @@ a {
 }
 
 .btn-warning {
-  background-color: yellow;
+  background-color: #F0EDCC;
 }
 
 .bg-green {
-  background-color: green;  
+  background-color: green;
 }
 
 footer {
@@ -265,7 +275,7 @@ footer a {
 
 
 .topbar {
-  background-color: blue;
+  background-color: rgb(2 52 63);
   position: fixed;
   top: 0;
   width: 100%;
@@ -283,7 +293,7 @@ footer a {
 }
 
 
-.login-form { 
+.login-form {
   margin: auto;
   width: 90%;
   max-width: 500px;
