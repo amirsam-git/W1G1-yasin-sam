@@ -2,7 +2,7 @@ function SlideShow(){
     return (
         <div className="slideshow-area">
             <div>
-                <img src="/assets/img/slideshow01.jpg" alt="slideshow 01" />
+                <img src="/assets/img/ads/soulsmp.png" alt="slideshow 01" />
             </div>
             {/* <div>
                 <img src="/assets/img/slideshow02.jpg" alt="2" />

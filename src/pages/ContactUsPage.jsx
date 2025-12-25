@@ -9,7 +9,7 @@ export default function ContactUsPage() {
                 <input className="form-control" type="text" id="fullname" name="fullname" placeholder="john due" />
             </div>
             <div>
-                <label className="form-label" htmlFor="email">Email</label>
+                <label className="form-label" htmlFor="email" style={{display:"block"}}>Email</label>
                 <input className="form-control" type="email" id="email" name="email" placeholder="john.due@gmail.com"/>
             </div>
             <div>
