@@ -6,8 +6,6 @@ export default function CardsPage() {
       <div>
         <div>
           <ProductCard />
-          <ProductCard />
-          <ProductCard />
         </div>
       </div>
     </div>

@@ -9,9 +9,11 @@ export default function StorePage() {
         <InfluencerArea />
         <SlideShow />
         <Ads />
-        <h1 style={{ height: '500px' }}>
-          home page
+        <div id='ip-center'>
+        <h1 id='ip-text'>
+          IP:SoulSmp.net
         </h1>
+        </div>
       </div>
     </>
   )

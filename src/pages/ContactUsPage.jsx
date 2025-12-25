@@ -1,7 +1,7 @@
 export default function ContactUsPage() {
   return (
     <>
-    <div>ContactUs</div>
+    <div className="contactus-headname">ContactUs</div>
     <div>
         <form action="">
             <div>

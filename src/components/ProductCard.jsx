@@ -19,20 +19,55 @@ export default function ProductCard() {
             <div>
                 <div className="d-flex item-start">
                     <div className="product-card-img-area">
-                        <img src="/assets/img/phones/mobile1.webp" alt="" />
+                        <img src="/assets/img/offer/demon crown.png" alt="" />
                         <p>special sale</p>
                         <p>5:36: {seconds}</p>
                     </div>
                     <div>
-                        <p className="product-card-title">iPhone 15 black 256 2025</p>
-                        <p>blue</p>
-                        <p>Digikala</p>
+                        <p className="product-card-title product-card-title-demon">Demon rank</p>
+                        <p>30d</p>
                         <p>
-                            <i class="bi bi-mailbox2"></i>
-                            <span>Post package</span>
+                            <i class="bi bi-hammer"></i>
+                            <span>SkyMine</span>
                         </p>
-                        <p>Europ, US, UK</p>
+                        <p>Fly,Specte,Glow,...</p>
                     </div>
+
+
+                    <div className="d-flex item-start">
+                        <div className="product-card-img-area">
+                            <img src="/assets/img/offer/angel crown.png" alt="" />
+                            <p>special sale</p>
+                            <p>5:36: {seconds}</p>
+                        </div>
+                        <div>
+                            <p className="product-card-title product-card-title-angel">Angel rank</p>
+                            <p>30d</p>
+                            <p>
+                                <i class="bi bi-hammer"></i>
+                                <span>SkyMine</span>
+                            </p>
+                            <p>Fly,Glow,...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div className="d-flex item-start">
+                <div className="product-card-img-area">
+                    <img src="/assets/img/offer/nature crown.png" alt="" />
+                    <p>special sale</p>
+                    <p>5:36: {seconds}</p>
+                </div>
+                <div>
+                    <p className="product-card-title product-card-title-nature">Nature rank</p>
+                    <p>30d</p>
+                    <p>
+                        <i class="bi bi-hammer"></i>
+                        <span>SkyMine</span>
+                    </p>
+                    <p>Glow,..</p>
                 </div>
             </div>
         </div>
