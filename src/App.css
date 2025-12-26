@@ -159,8 +159,11 @@ a {
 }
 
 .item-start {
-  align-items: start;
+  text-align: center;
 }
+
+
+
 
 .influencer-area {
   overflow-y: visible;
@@ -245,9 +248,12 @@ footer a {
 }
 
 .product-card img {
-  width: 15vw;
-  min-width: 150px;
+  width: 227.5px;
+  height: 151.67px;
+  object-fit: contain;
 }
+
+
 
 .product-card-img-area {
   text-align: center;
@@ -265,25 +271,20 @@ footer a {
   margin: 0px;
 }
 
-.product-card-title-demon{
+.product-card-title-demon {
   color: red;
 }
 
-.product-card-title-angel{
+.product-card-title-angel {
   color: blue;
 }
 
-.product-card-title-nature{
+.product-card-title-nature {
   color: lime;
 }
 
-.product-card{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 500px;
-
+.product-card-title-sungod {
+  color: yellow;
 }
 
 .card-page {
@@ -362,4 +363,18 @@ footer a {
 .form-label {
   font-size: medium;
   font-weight: bold;
+}
+
+.rank-row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 60px;
+  justify-items: center;
+  align-items: start;
+  margin-bottom: 80px;
+  text-align: center;
+}
+.rank-card {
+  width: 320px;
+  text-align: center;
 }
