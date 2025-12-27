@@ -170,7 +170,7 @@ a {
   overflow-x: scroll;
 }
 
-.ads-area>div>div>img {
+.ads-area>div img {
   width: 200px;
   border-radius: 10px;
 }
@@ -374,7 +374,72 @@ footer a {
   margin-bottom: 80px;
   text-align: center;
 }
+
 .rank-card {
   width: 320px;
   text-align: center;
+}
+
+.ads-limited-time {
+  color: magenta;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.offers-text {
+  text-align: center;
+  font-size: 26px;
+  font-weight: bolder;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: red;
+}
+
+.store-text {
+  color: orangered;
+  text-align: center;
+  font-size: 26px;
+  font-weight: bolder;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.first-price {
+  color: rgba(255, 0, 0, 0.89);
+  text-decoration: line-through;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.off-price {
+  color: red;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.product-card-title-Lightining-key {
+  color: aqua;
+}
+
+#legendray-text-key-store {
+  color: gold;
+  font-weight: bold;
+}
+
+#prismatic-text-key-store {
+  color: magenta;
+  font-weight: bold;
+}
+
+.product-card-title-starite-key {
+  color: yellow;
+
+}
+
+.store-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 900px;   
+  margin: 0 auto;     
 }

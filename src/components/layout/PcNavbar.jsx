@@ -9,16 +9,16 @@ function PcNavbar() {
       </div>
       <div className="top-navbar-area d-lg-blcok d-sm-none w-99">
         <div>
-          <Link to="/store">Store</Link>
+          <Link to="/store">Home</Link>
         </div>
         <div>
-          <Link to="/card">Cards</Link>
+          <Link to="/card">Store</Link>
         </div>
         <div>
           <Link to="/order">Orders</Link>
         </div>
         <div>
-          <Link to="/about-us">About Us</Link>
+          <Link to="/about-us">Posts</Link>
         </div>
         <div>
           <Link to="/contact-us">Contact Us</Link>

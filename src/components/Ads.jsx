@@ -1,21 +1,54 @@
+import { Link } from "react-router-dom";
+
 function Ads() {
     return (
-        <div className="ads-area">
-            <div className="col-lg-4 col-sm-2">
-                <div><img src="/assets/img/ads/redbox.webp" alt="" />
-                    <p className="adsp" style={{color: "red"}}>Demon rank</p>
-                </div>
-                <div><img src="/assets/img/ads/greenbox.png" alt="" />
-                    <p className="adsp" style={{color: "lime"}}>Nature rank</p>
-                </div>
-                <div><img src="/assets/img/ads/bluebox.png" alt="" />
-                    <p className="adsp" style={{color: "blue"}}>Angel rank</p>
-                </div>
-                <div><img src="/assets/img/ads/yellowbox.webp" alt="" />
-                    <p className="adsp" style={{color: "yellow"}}>Sungod rank</p>
+        <div>
+
+            <div className="ads-limited-time">
+                <p>Limited Time</p>
+            </div>
+
+
+            <div className="ads-area">
+                <div className="col-lg-4 col-sm-2">
+
+                    <div>
+                        <Link to="/card">
+                            <img src="/assets/img/ads/redbox.webp" alt="" />
+                        </Link>
+                        <p className="adsp" style={{ color: "red" }}>Demon rank</p>
+                    </div>
+
+                    <div>
+                        <Link to="/card">
+                            <img src="/assets/img/ads/greenbox.png" alt="" />
+                        </Link>
+                        <p className="adsp" style={{ color: "lime" }}>Nature rank</p>
+                    </div>
+
+                    <div>
+                        <Link to="/card">
+                            <img src="/assets/img/ads/bluebox.png" alt="" />
+                        </Link>
+                        <p className="adsp" style={{ color: "blue" }}>Angel rank</p>
+                    </div>
+
+                    <div>
+                        <Link to="/card">
+                            <img src="/assets/img/ads/yellowbox.webp" alt="" />
+                        </Link>
+                        <p className="adsp" style={{ color: "yellow" }}>Sungod rank</p>
+                    </div>
+
                 </div>
             </div>
+
+
+            <p>
+                <Link to="/card"></Link>
+            </p>
         </div>
+
     )
 }
 
