@@ -170,6 +170,10 @@ a {
   overflow-x: scroll;
 }
 
+.influencer-area::-webkit-scrollbar {
+  display: none;
+}
+
 .ads-area>div img {
   width: 200px;
   border-radius: 10px;
@@ -306,6 +310,7 @@ footer a {
   width: 100%;
   height: 50px;
   padding: 5px;
+  z-index: 1000;
 }
 
 .topbar a {
@@ -440,6 +445,63 @@ footer a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 900px;   
-  margin: 0 auto;     
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+
+/* Wrapper */
+.slideshow-wrapper {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+}
+
+/* Container */
+.slideshow-container {
+  position: relative;
+  width: 1200px;
+  height: 650px;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+/* Image */
+.slideshow-image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Arrows */
+.slide-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  border: none;
+  font-size: 28px;
+  padding: 10px 14px;
+  cursor: pointer;
+  border-radius: 50%;
+  z-index: 5;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.slide-arrow:hover {
+  background: rgba(0, 0, 0, 0.8);
+  transform: translateY(-50%) scale(1.1);
+}
+
+/* Positions */
+.slide-arrow.left {
+  left: 12px;
+}
+
+.slide-arrow.right {
+  right: 12px;
 }

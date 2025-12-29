@@ -5,7 +5,7 @@ import Ads from '../components/Ads'
 export default function StorePage() {
   return (
     <>
-      <div>
+      <div className="store-page">
         <InfluencerArea />
         <SlideShow />
         <Ads />

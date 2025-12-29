@@ -5,8 +5,8 @@ import OrderPage from './pages/OrdersPage'
 import AboutUsPage from './pages/AboutUsPage';
 import ContactUsPage from './pages/ContactUsPage';
 
-import 'bootstrap-icons/font/bootstrap-icons.css';
 
+import 'bootstrap-icons/font/bootstrap-icons.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import PcNavbar from './components/layout/PcNavbar';
 import MobileNavbar from './components/layout/MobileNavbar ';
