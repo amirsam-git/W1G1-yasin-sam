@@ -15,9 +15,6 @@ function PcNavbar() {
           <Link to="/card">Store</Link>
         </div>
         <div>
-          <Link to="/order">Orders</Link>
-        </div>
-        <div>
           <Link to="/about-us">Posts</Link>
         </div>
         <div>

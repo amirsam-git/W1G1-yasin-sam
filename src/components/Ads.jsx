@@ -9,8 +9,8 @@ function Ads() {
             </div>
 
 
-            <div className="ads-area">
-                <div className="col-lg-4 col-sm-2">
+            <div>
+                <div className="ads-mobile-area">
 
                     <div>
                         <Link to="/card">

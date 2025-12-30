@@ -1,7 +1,6 @@
 import './App.css'
 import StorePage from './pages/StorePage';
 import CardPage from './pages/CardsPage';
-import OrderPage from './pages/OrdersPage'
 import AboutUsPage from './pages/AboutUsPage';
 import ContactUsPage from './pages/ContactUsPage';
 
@@ -26,7 +25,6 @@ function App() {
               <Route path="/" element={<StorePage />} />
               <Route path="/store" element={<StorePage />} />
               <Route path="/card" element={<CardPage />} />
-              <Route path="/order" element={<OrderPage />} />
               <Route path="/about-us" element={<AboutUsPage />} />
               <Route path="/contact-us" element={<ContactUsPage />} />
               <Route path="/login" element={<LoginPage />} />

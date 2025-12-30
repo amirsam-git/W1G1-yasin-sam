@@ -5,15 +5,30 @@
   margin: auto;
 }
 
+.ads-mobile-area {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  width: 100%;
+}
+
+
 /* mobile */
 @media only screen and (max-width:720px) {
   .d-sm-block {
     visibility: visible;
   }
 
-  .d-sm-none {
-    visibility: hidden;
+  .slideshow-wrapper {
+    max-width: 100%;
+    padding: 0 10px;
   }
+
+  .slideshow-image {
+    height: 220px; /* 👈 smaller slideshow */
+  }
+
+
 
   .col-sm-2 {
     display: grid;
@@ -30,7 +45,38 @@
   .m-sm-1 {
     margin: 10px;
   }
+
+  .col-sm-1-rank-card {
+    display: grid;
+    grid-template-columns: auto;
+  }
+
+
+
+  .item-start {
+    justify-self: center;
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .rank-row {
+    grid-template-columns: 1fr !important;
+  }
+
+  .store-items {
+    grid-template-columns: 1fr !important;
+  }
+
+  .ads-mobile-area {
+    grid-template-columns: 1fr;
+  }
+
+  .d-sm-none{
+    visibility: hidden;
+  }
 }
+
+
 
 
 
@@ -38,13 +84,16 @@
 
 /* pc */
 @media only screen and (min-width:721px) {
-  .d-lg-none {
-    visibility: hidden;
-  }
+
 
   .d-lg-block {
     visibility: visible;
   }
+
+  .d-lg-none{
+    visibility: hidden;
+  }
+
 
   .col-lg-4 {
     display: grid;
@@ -61,6 +110,11 @@
   .m-lg-5 {
     margin: 50px
   }
+
+  .ads-mobile-area {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
 }
 
 .col-2 {
@@ -111,6 +165,7 @@ a {
   justify-content: space-evenly;
   align-items: center;
   background-color: rgb(1, 1, 139);
+  z-index: 1000;
 }
 
 .mobile-navbar-area>div>a {
@@ -174,17 +229,12 @@ a {
   display: none;
 }
 
-.ads-area>div img {
-  width: 200px;
-  border-radius: 10px;
+.ads-mobile-area img {
+  width: 100%;
+  max-width: 160px;
+  height: auto;
 }
 
-.ads-area>div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 100px;
-}
 
 
 
@@ -273,6 +323,7 @@ footer a {
   font-size: 1.8rem;
   font-weight: 900;
   margin: 0px;
+ 
 }
 
 .product-card-title-demon {
@@ -438,6 +489,7 @@ footer a {
 
 .product-card-title-starite-key {
   color: yellow;
+  text-align: center;
 
 }
 
@@ -504,4 +556,36 @@ footer a {
 
 .slide-arrow.right {
   right: 12px;
+}
+
+.rank-row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+
+.store-items {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+
+
+.ads-mobile-area img {
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+}
+
+.ads-mobile-area div {
+  text-align: center;
+}
+
+.ads-mobile-area>div {
+  display: block !important;
+  visibility: visible !important;
+}
+
+.key-title-center{
+  text-align: center ;
 }

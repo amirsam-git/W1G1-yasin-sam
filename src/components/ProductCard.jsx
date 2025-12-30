@@ -50,8 +50,8 @@ export default function ProductCard() {
 
 
 
-
-            <div className="product-card rank-row">
+            <div className="product-card">
+            <div className=" rank-row ">
                 <div className="item-start">
                     <div className="product-card-img-area">
                         <img src="/assets/img/offer/demon crown.png" alt="" />
@@ -96,7 +96,7 @@ export default function ProductCard() {
 
 
 
-            <div className="product-card rank-row">
+            <div className=" rank-row">
                 <div className="item-start">
                     <div className="product-card-img-area">
                         <img src="/assets/img/offer/nature crown.png" alt="" />
@@ -154,7 +154,7 @@ export default function ProductCard() {
                             <img src="/assets/img/key2.png" alt="" />
                         </div>
                         <div>
-                            <p className="rank-card product-card-title product-card-title-Lightining-key">Lightining key</p>
+                            <p className=" product-card-title product-card-title-Lightining-key">Lightining key</p>
                             <p id="legendray-text-key-store">Legendray</p>
                             <p>
                                 <span>Survival</span>
@@ -173,7 +173,7 @@ export default function ProductCard() {
                             <img src="/assets/img/key3.png" alt="" />
                         </div>
                         <div>
-                            <p className="rank-card product-card-title product-card-title-starite-key">Starite key</p>
+                            <p className=" product-card-title product-card-title-starite-key">Starite key</p>
                             <p id="prismatic-text-key-store">Prismatic</p>
                             <p>
                                 <span>Survival</span>
@@ -183,7 +183,7 @@ export default function ProductCard() {
                     </div>
                 </div>
             </div>
-
+    </div>
 
 
 

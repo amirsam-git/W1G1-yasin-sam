@@ -17,12 +17,6 @@ function MobileNavbar() {
           </Link>
         </div>
         <div>
-          <Link to="/order">
-            <i class="bi bi-list-check"></i>
-            {/* Orders */}
-          </Link>
-        </div>
-        <div>
           <Link to="/contact-us">
             <i class="bi bi-headset"></i>
             {/* Contact Us */}
